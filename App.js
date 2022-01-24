@@ -1,6 +1,9 @@
 // import React,{useState} from 'react'
 // import { StyleSheet, Text, View ,TextInput,Button, SafeAreaView} from 'react-native'
 // import AsyncStorage from '@react-native-async-storage/async-storage';
+
+
+
 // const App = () => {
 //   const [bussinesName,setBussinesName] = useState('');
 //   const [ownerName,setOwnerName] = useState('')
@@ -8,7 +11,6 @@
 //   const [adress,setAdress] = useState('')
 //   const [ilce,setIlce] = useState('')
 //   const [city,setCity] = useState('')
-
 
 //   const saveData = async () => {
 //       if ((bussinesName.length == 0) || (ownerName.length == 0) || (phoneNumber.length == 0) || (adress.length == 0) || (ilce.length == 0) || (city.length == 0)) {
@@ -125,13 +127,14 @@
 
 import React from 'react'
 import { StyleSheet, Text, View } from 'react-native'
+import Bottom from './screen/Bottom'
 import CategoriesSelect from './screen/CategoriesSelect'
 import MarkerSelect from './screen/MarkerSelect'
 
 const App = () => {
     return (
-        <CategoriesSelect/>
-    )
+        <Bottom/>
+        )
 }
 
 export default App
